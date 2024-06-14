@@ -116,6 +116,6 @@ class Validator {
         if (isNameValid && isDateValid && isEmailValid && isPasswordValid && isPassword2Valid && nameWasEntered && dateWasEntered && emailWasEntered && passwordWasEntered && password2WasEntered) {
             myForm.submit()
         } else {
-            alert('Could you fill out the for better?');
+            alert('Could you fill out the form better?');
         }
     }
